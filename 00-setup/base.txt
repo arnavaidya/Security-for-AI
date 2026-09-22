@@ -1,0 +1,25 @@
+# Base requirements — install first, unblocks Phase 1 (LLM fundamentals)
+anthropic>=0.40.0
+openai>=1.50.0
+python-dotenv>=1.0.1
+requests>=2.32.0
+
+# --- Phase 2 (RAG) — install when you reach it ---
+# sentence-transformers>=3.0.0
+# chromadb>=0.5.0
+# faiss-cpu>=1.8.0
+
+# --- Phase 3 (Agentic / tool-use) — install when you reach it ---
+# langchain>=0.3.0
+# mcp>=1.0.0
+
+# --- Phase 4 (MLOps) — install when you reach it ---
+# mlflow>=2.16.0
+# peft>=0.13.0
+# transformers>=4.45.0
+# datasets>=3.0.0
+
+# --- Phase 5 (Red-team tooling) — install when you reach it ---
+# garak>=0.10.0
+# pyrit>=0.5.0
+# promptfoo (installed via npm, not pip: npm install -g promptfoo)
