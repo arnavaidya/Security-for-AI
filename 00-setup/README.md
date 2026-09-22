@@ -67,7 +67,7 @@ pip install -r requirements/phase5-redteam.txt
 Before starting Phase 1, confirm the basics work:
 
 ```bash
-python 00-setup/smoke_test.py
+python 00-setup/smoke-test.py
 ```
 
 This should print a successful response from your configured LLM API. If it fails, fix it here — don't debug API connectivity mid-Phase-1.
