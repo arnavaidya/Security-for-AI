@@ -6,7 +6,7 @@ input crosses into the model's trust boundary, before any framework hides it.
 ## What's here
 
 - `chatbot.py` — interactive chatbot, system prompt + conversation loop. Run with `--debug` to print the raw request/response sent to the API.
-- `injection_demo.py` — stretch goal: four canned direct-injection attempts against the bot's own system prompt, with pass/fail verdicts.
+- `injection-demo.py` — stretch goal: four canned direct-injection attempts against the bot's own system prompt, with pass/fail verdicts.
 
 ## Request → Response Flow
 
@@ -40,7 +40,7 @@ from `B` is attacker-controlled by definition, even in a "friendly" chatbot.
 
 | Surface | Notes |
 |---|---|
-| System prompt leakage | `injection_demo.py` tests direct extraction attempts (OWASP LLM01/LLM07 territory) |
+| System prompt leakage | `injection-demo.py` tests direct extraction attempts (OWASP LLM01/LLM07 territory) |
 | Prompt injection (direct) | User input is appended to `conversation` with zero validation — intentional, to observe baseline behavior |
 | No input sanitization | Anything the user types reaches the model verbatim — later phases (RAG, agents) raise the stakes on this same gap |
 | No output validation | The model's reply is printed/used as-is — matters more once output feeds a tool call (Phase 3) |
