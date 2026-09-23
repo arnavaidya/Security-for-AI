@@ -67,11 +67,11 @@ mindmap
 ## Structured Plan
 
 | Phase | Focus | Build |
-|---|---|---|---|
+|---|---|---|
 | 1 | LLM Fundamentals | Minimal chatbot, raw API calls |
 | 2 | RAG Pipeline | Chunk → embed → retrieve → generate | 
 | 3 | Agentic / Tool-Use | Multi-tool agent, framework + from-scratch |
-| 4 | MLOps Pipeline | Fine-tune → registry → deploy | 2 wks |
+| 4 | MLOps Pipeline | Fine-tune → registry → deploy |
 | 5 | Red-Team Tooling | Garak / PyRIT / Promptfoo against own builds |
 | 6 | Case Studies | Assessment-style writeups of own findings |
 
