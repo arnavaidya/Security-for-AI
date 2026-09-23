@@ -75,8 +75,6 @@ mindmap
 | 5 | Red-Team Tooling | Garak / PyRIT / Promptfoo against own builds |
 | 6 | Case Studies | Assessment-style writeups of own findings |
 
-Rough cadence: 8–10 weeks for the full pass. Depth over speed on Phases 3 and 5 — closest to day-to-day AI red teaming + MLOps security work.
-
 ### Phase 1 — LLM Fundamentals
 - Build a chatbot with zero framework: direct calls to an LLM API (or local via Ollama)
 - Learn: tokenization, attention (conceptual), context windows, prompt boundary separation
