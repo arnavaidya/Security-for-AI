@@ -66,14 +66,14 @@ mindmap
 
 ## Structured Plan
 
-| Phase | Focus | Build | Duration |
+| Phase | Focus | Build |
 |---|---|---|---|
-| 1 | LLM Fundamentals | Minimal chatbot, raw API calls | 1–2 wks |
-| 2 | RAG Pipeline | Chunk → embed → retrieve → generate | 1–2 wks |
-| 3 | Agentic / Tool-Use | Multi-tool agent, framework + from-scratch | 2 wks |
+| 1 | LLM Fundamentals | Minimal chatbot, raw API calls |
+| 2 | RAG Pipeline | Chunk → embed → retrieve → generate | 
+| 3 | Agentic / Tool-Use | Multi-tool agent, framework + from-scratch |
 | 4 | MLOps Pipeline | Fine-tune → registry → deploy | 2 wks |
-| 5 | Red-Team Tooling | Garak / PyRIT / Promptfoo against own builds | 2 wks |
-| 6 | Case Studies | Assessment-style writeups of own findings | ongoing |
+| 5 | Red-Team Tooling | Garak / PyRIT / Promptfoo against own builds |
+| 6 | Case Studies | Assessment-style writeups of own findings |
 
 Rough cadence: 8–10 weeks for the full pass. Depth over speed on Phases 3 and 5 — closest to day-to-day AI red teaming + MLOps security work.
 
