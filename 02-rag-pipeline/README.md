@@ -14,7 +14,7 @@ model's own knowledge.
 ## Setup
 
 ```bash
-pip install -r ../00-setup/requirements/requirements.txt
+pip install -r ../00-setup/02-requiremnts.txt
 python ingest.py
 python rag_chat.py --debug
 ```
