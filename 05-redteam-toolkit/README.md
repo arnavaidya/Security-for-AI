@@ -1,4 +1,4 @@
-# 05 — Red-Team Tooling
+# 05 — Red-Team Toolkit
 
 Point the actual red-team stack at Phases 1–3, instead of at a raw
 model API. This is the payoff for having built everything from scratch:
