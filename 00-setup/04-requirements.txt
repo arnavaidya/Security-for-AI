@@ -1,0 +1,7 @@
+# Raw function calling (this phase's core build) needs nothing beyond
+# base.txt (anthropic SDK). Kept here as a placeholder for the stretch
+# goal: rebuilding the same agent with a framework to see what it hides.
+
+# --- Stretch: framework rebuild ---
+# langchain>=0.3.0
+# mcp>=1.0.0
