@@ -22,7 +22,7 @@ pass for the training/deployment side of any real system.
 ## Setup
 
 ```bash
-pip install -r ../00-setup/requirements/phase4-mlops.txt
+pip install -r ../00-setup/04-requirements.txt
 python train.py --data data/clean_tickets.csv --promote
 python serve.py
 ```

@@ -12,7 +12,7 @@ domain, now with real actions the model can trigger.
 
 ## Setup
 
-No new dependencies for the core build — just `base.txt` from setup.
+No new dependencies for the core build — just `03-requirements.txt` from setup.
 
 ```bash
 python agent.py --debug
