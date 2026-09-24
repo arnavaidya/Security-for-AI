@@ -1,0 +1,5 @@
+garak>=0.10.0
+pyrit>=0.6.0
+
+# promptfoo is a Node package, installed separately via npm:
+#   npm install -g promptfoo
