@@ -34,7 +34,7 @@ the ones in this folder.
 ## Setup
 
 ```bash
-pip install -r ../00-setup/requirements/phase5-redteam.txt
+pip install -r ../00-setup/05-requirements.txt
 npm install -g promptfoo
 ```
 
